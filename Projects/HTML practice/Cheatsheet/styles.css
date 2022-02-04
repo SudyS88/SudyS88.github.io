@@ -1,0 +1,60 @@
+*{
+    font-family: Helvetica;
+}
+
+h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100px;
+    font-weight:bold;
+    color:black;
+    background-image:url('https://www.maa.org/sites/default/files/images/upload_library/46/Swetz_2012_Math_Treasures/U-California/Vega-logs.png');
+    text-align:center;    
+}
+
+h2 {
+    font-family: Helvetica;
+    text-align:center;
+}
+
+body{
+    background-color: rgba(231, 211, 174, 0.985) ;
+}
+
+table, th, td {
+    margin: 10 auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-family: Courier;
+}
+
+table {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+th{
+    background-color:skyblue;
+    
+}
+
+td{
+    background-color: white;
+}
+
+.element{
+    font-weight: bold;
+    font-family: courier;
+    color: navy
+}
+
+.attribute{
+    font-weight: bold;
+    font-family: courier;
+    color: darkgreen;
+}
+
+#signature{
+    font-family: Papyrus;
+}
+

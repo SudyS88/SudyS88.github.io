@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sudy's Tables cheatsheet</title>
+        <link href="styles.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Sudy's HTML Tables cheatsheet</h1>
+        <h2>The table below outlines several key elements and commands helpful for building tables in HTML</h2>
+        <h2><span class="element">Elements</span> are shown below in <span class="element">blue</span> and <span class="attribute">Attributes</span> are in <span class="attribute">green</span></h2>
+        <div "table-of-elements">
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Element/Attribute name</th>
+                        <th scope="col">Brief Description</th>
+                        <th scope="col">Notes and Tips</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class = "element">&lt;table&gt;</td>
+                        <td>Creates a new Table</td>
+                        <td>Remember to include all other elements within the table element</td>
+                    </tr>
+                    <tr>
+                        <td class = "element">&lt;tr&gt;</td>
+                        <td>Table Row</td>
+                        <td>Enclose data elements (see below) in a row</td>
+                    </tr>
+                    <tr>
+                        <td class = "element">&lt;td&gt;</td>
+                        <td>Table Data Element</td>
+                        <td>This is similar to a cell in an excel file</td>
+                    </tr>
+                    <tr>
+                        <td class = "element">&lt;th&gt;</td>
+                        <td>Table Heading</td>
+                        <td>The first row, where table column names are specified</td>
+                    </tr>
+                    <tr>
+                        <td class = "attribute">colspan</td>
+                        <td>colspan = "x"- makes data span x columns</td>
+                        <td> Include within td brace e.g. &lt;colspan = "2"&gt; Like Merge Cells in excel </td>
+                    </tr>
+                    <tr>
+                        <td class = "attribute">rowspan</td>
+                        <td>rowspan = "x"- makes data span x rows</td>
+                        <td> Include within td brace e.g. &lt;rowspan = "2"&gt; Like Merge Cells in excel </td>
+                    </tr>
+                    <tr>
+                        <td class = "element">&lt;thead&gt;</td>
+                        <td>Table Head</td>
+                        <td>Contain table column headings in this element (within a row)</td>
+                    </tr>
+                    <tr>
+                        <td class = "element">&lt;tbody&gt;</td>
+                        <td>Table Body</td>
+                        <td>This should contain all the table's data</td>
+                    </tr>
+                    <tr>
+                        <td class = "element">&lt;tfoot&gt;</td>
+                        <td>Table Foot</td>
+                        <td>Used to section off table footer. Can be useful for enclosing totals/subtotals etc.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </body>
+    <footer>
+        <p id=signature> Made by Sudy on 2/3/2022.</p>
+    </footer>
+</html>

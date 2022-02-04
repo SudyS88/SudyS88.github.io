@@ -1,0 +1,29 @@
+*{
+    
+    font-family: 'Dosis', sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    
+}
+h2{
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+}
+table{
+    margin: 0 auto;
+    border: 2px solid white;
+    width: 700px;
+}
+thead{
+    background-color: red;
+}
+body{
+    background-color: rgba(9, 9, 250, 0.685) ;
+}
+tr{
+    text-align: center;
+}
