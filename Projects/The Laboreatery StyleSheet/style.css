@@ -1,5 +1,113 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&family=Raleway&display=swap');
 
-* {
+body{
+    background-color:  rgba(245,238,195,1);
+}
+
+#header-title{    
+    color:white;
+    background-image: url('../The\ Laboreatery\ StyleSheet/Resources/test-tube-bg.png');  
+    padding-top: 30px;
+    width: 100%;
+}
+
+h1{
     font-family: 'Josefin Sans';
+    font-weight: bold;
+    font-size: 36px;
+}
+
+h2 {
+    font-family: 'Josefin Sans';
+    font-weight: bolder;
+    font-size: 26px;
+}
+
+h3 {
+    font-family: 'Josefin Sans';
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+p{
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.special-text{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.content-section{
+    border: 1px solid #35617A;
+    background-color: white;
+    margin: 10px auto;
+    padding: 20px;
+    font-family: 'Josefin Sans';
+    width:80%;
+    color: #35617A;
+    overflow: scroll;
+}
+
+.color-box{
+    height: 80px;
+    width: 160px;
+    border: 1px solid ;
+    margin-right:  20px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: inline-block;
+    font-weight: bolder;
+    font-family: 'Josefin Sans';
+}
+
+#Warm-Brown{
+    background-color: rgba(88,35,23,1);
+    color: white;
+}
+
+#Citrus-Orange{
+    background-color: rgba(244,172,43,1);
+    color: white;
+}
+
+#Ivory{
+    background-color: rgba(245,238,195,1);
+    color: black;
+}
+
+#Blue-Steel{
+    background-color: rgba(53,97,122,1);
+    color: white;
+}
+
+#White{
+    background-color: white;
+    color: black;
+}
+#Black{
+    background-color: black;
+    color: white;
+}
+
+.font-box{
+    margin-right:  80px;
+    display: inline-block;
+}
+
+#josefin-sans-text{
+    font-family: 'Josefin Sans';
+}
+
+#raleway-text{
+    font-family: 'Raleway';
+}
+
+.text-style-box{
+    width: 400px;
+    display: inline-block;
+    margin-right: 50px;
 }
