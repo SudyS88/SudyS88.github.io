@@ -101,7 +101,7 @@ main {
 
 #locations {
     padding-top: 70px;
-    height: 500px;
+    min-height: 500px;
     background-image: url('./Resources/img-locations-background.webp');
     background-repeat: no-repeat;
     background-position: center;

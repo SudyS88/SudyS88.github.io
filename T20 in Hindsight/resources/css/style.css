@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500;700&family=Raleway&display=swap');
+
+html{
+    font-size: 16px;
+}
+
+body{
+    background-image: url(../media/images/grass-fullscreen.jpg)
+}
+
+header{
+    background-color: #5A5A5A;
+    z-index:10;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-content:center;
+    height: 50px;
+}
+
+#header-title{ 
+    padding: 0; 
+    padding-left: 20px;  
+    color:white;
+    align-self: center;    
+    display: inline-flex;
+}
+
+#header-title a{ 
+    font-family: 'Josefin Sans';
+    font-weight: bold;
+    font-size: 2.25rem;
+    color: white;
+}
+
+#links-bar{
+    color:white;
+    padding: 0px 50px 0px 0px;
+    display: inline-flex;
+    justify-self: flex-end;
+    align-self: center;
+}
+
+#links-bar ul li {
+    
+    font-family: 'Josefin Sans';
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 0px 20px;
+    display: inline-flex;
+}
+
+#links-bar ul li a{
+    color:white;
+    font-family: 'Josefin Sans';
+}
+
+#links-bar ul li a:hover{
+    color: rgba(152, 0, 0, 1);
+    cursor: pointer;
+}
+
+.breadcrumb-bar{
+    position: sticky;
+    text-align:left;
+    margin: 0;
+    left: 0;
+    display: block;
+    background-color:rgba(237, 237, 237, 0.4);
+    font-family: 'Raleway';
+    font-weight: bolder;
+}
+
+.breadcrumb a {
+    float: left;
+    color: #fff;
+    background: rgba(152, 0, 0, 1);
+    text-decoration: none;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 15px;
+    padding: 0 5px;
+}
+
+.breadcrumb .location a::before,
+.breadcrumb .location a::after {
+  content: "";
+  position: absolute;
+  border-color: rgba(152, 0, 0, 1);
+  border-style: solid;
+  border-width: 15px 5px;
+}
+
+.breadcrumb .location a::after {
+  left: 100%;
+  border-color: transparent;
+  border-left-color: rgba(152, 0, 0, 1);
+}
+.breadcrumb .location a::before {
+  left: -10px;
+  border-left-color: transparent;
+}
+
+.breadcrumb .location a:hover{
+    color: yellow;
+    cursor: pointer;
+}
+
+.breadcrumb .location a:active{
+    color: rgba(90,139,57,1);
+}
+
+.location {
+    color: white;
+    font-size: 1.25rem;
+    padding: 0px 2px;
+    display: inline-flex;
+}
+
+a{
+    color: rgba(192, 0, 0, 1);
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgba(255, 0, 0, 1);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a:active{
+    color: rgba(90,139,57,1);
+    font-weight: bold;
+}
+
+main{
+    margin-top: 50px;
+}
+
+h1{
+    font-family: 'Josefin Sans';
+    font-weight: bold;
+    font-size: 2.25rem;
+}
+
+h2 {
+    font-family: 'Josefin Sans';
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color:rgba(192, 0, 0, 1);
+}
+
+h3 {
+    font-family: 'Josefin Sans';
+    font-weight: bolder;
+    font-size: 1.25rem;
+}
+
+h4 {
+    font-family: 'Josefin Sans';
+    font-size: 1.125rem;
+}
+
+p{
+    font-family: 'Josefin Sans';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.special-text{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.content-section{
+    border: 1px solid white;
+    background-color: white;
+    margin: 1.25rem auto;
+    padding: 0.5rem 5rem;
+    font-family: 'Josefin Sans';
+    width:80%;
+    max-width:960px;
+    color: black;
+    overflow: none;
+    border-radius: 20px;
+}
+
+
+.text-box{
+    display: inline-block;
+}
+
+
+.text-style-box{
+    min-width: 25rem;
+    display: inline-block;
+}
